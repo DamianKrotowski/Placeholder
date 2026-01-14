@@ -43,8 +43,8 @@ export const testService = {
   },
 
   getTestRuns: async (testCaseId?: string): Promise<TestRun[]> => {
-    const url = testCaseId ? `/tests/runs?testCaseId=${testCaseId}` : '/tests/runs';
-    const response = await api.get(url);
+    const params = testCaseId ? `?testCaseId=${encodeURIComponent(testCaseId)}` : '';
+    const response = await api.get(`/tests/runs${params}`);
     return response.data;
   },
 
