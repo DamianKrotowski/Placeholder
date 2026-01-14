@@ -1,0 +1,87 @@
+.test-cases-page {
+  padding: 2rem 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.form-card {
+  margin-bottom: 2rem;
+}
+
+.btn-sm {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+}
+
+.test-cases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.test-case-card {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.test-case-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.test-case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.test-case-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--gray-900);
+}
+
+.test-case-badges {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.test-case-description {
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+}
+
+.test-case-steps {
+  margin-bottom: 1rem;
+  color: var(--gray-700);
+}
+
+.test-case-steps ol {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.test-case-steps li {
+  margin-bottom: 0.25rem;
+}
+
+.test-case-expected {
+  padding: 0.75rem;
+  background-color: var(--gray-50);
+  border-left: 3px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--gray-700);
+}
+
+.test-case-expected strong {
+  color: var(--gray-900);
+}
