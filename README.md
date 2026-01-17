@@ -14,12 +14,14 @@ A modern, full-stack QA testing tool built with TypeScript, featuring both front
 ## 🛠️ Tech Stack
 
 ### Backend
+
 - **Node.js** with **Express**
 - **TypeScript** for type safety
 - **CORS** enabled for cross-origin requests
 - RESTful API design
 
 ### Frontend
+
 - **React 18** with **TypeScript**
 - **Vite** for fast development and building
 - **React Router** for navigation
@@ -34,12 +36,14 @@ A modern, full-stack QA testing tool built with TypeScript, featuring both front
 ## 🔧 Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/DamianKrotowski/Placeholder.git
 cd Placeholder
 ```
 
 2. Install dependencies for both frontend and backend:
+
 ```bash
 npm install
 ```
@@ -51,11 +55,13 @@ This will install dependencies for the root project and both workspaces (fronten
 ### Development Mode (Both Frontend & Backend)
 
 Run both frontend and backend simultaneously:
+
 ```bash
 npm run dev
 ```
 
 This will start:
+
 - Backend API on `http://localhost:3001`
 - Frontend on `http://localhost:3000`
 
@@ -74,11 +80,13 @@ npm run dev:frontend
 ## 🏗️ Building for Production
 
 Build both frontend and backend:
+
 ```bash
 npm run build
 ```
 
 Build individually:
+
 ```bash
 npm run build:backend
 npm run build:frontend
@@ -87,6 +95,7 @@ npm run build:frontend
 ## 🌐 API Endpoints
 
 ### Test Cases
+
 - `GET /api/tests/cases` - Get all test cases
 - `GET /api/tests/cases/:id` - Get a specific test case
 - `POST /api/tests/cases` - Create a new test case
@@ -94,16 +103,19 @@ npm run build:frontend
 - `DELETE /api/tests/cases/:id` - Delete a test case
 
 ### Test Runs
+
 - `GET /api/tests/runs` - Get all test runs
 - `GET /api/tests/runs?testCaseId=:id` - Get runs for a specific test case
 - `POST /api/tests/runs` - Create a new test run
 
 ### Test Suites
+
 - `GET /api/tests/suites` - Get all test suites
 - `GET /api/tests/suites/:id` - Get a specific test suite
 - `POST /api/tests/suites` - Create a new test suite
 
 ### Health Check
+
 - `GET /api/health` - Check if API is running
 
 ## 📁 Project Structure
@@ -154,6 +166,7 @@ Placeholder/
 ### Viewing Dashboard
 
 The Dashboard provides:
+
 - Total test case count
 - Number of passed, failed, pending, and blocked tests
 - Overall pass rate with visual progress bar
@@ -189,3 +202,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is open source and available under the MIT License.
+
+ABCD
+TEST
